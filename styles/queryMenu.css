@@ -1,0 +1,63 @@
+/*-----------------------------------------
+    ----------------------------------------
+ 13. Responsive style
+-------------------------------------------------------------------------------*/						
+					
+						/* Media Queries*/
+    
+    
+    
+    @media only screen and (min-width: 992px) and (max-width: 1200px) {
+        .navbar-nav > li {
+			padding: 5px;
+		 }
+		.navbar-inverse .navbar-nav > li > a {
+		font-size: 12px;
+		 }
+     .navbar-inverse{
+        width:970px;
+        height: 25px;     
+    }
+    .navbar-header{
+        width: 80px;
+    }
+            
+  }
+    @media only screen and (min-width: 1078px) and (max-width: 1199px) {
+         
+         .navbar-inverse{
+          width:920px;
+          height: 55px;
+          margin-left: -10px;  
+          
+        } 
+        .navbar-header > h3{
+            font-size: 12px;
+        }    
+    
+        .navbar-nav > li {
+							padding: 4px;
+						  }
+			 .navbar-inverse .navbar-nav > li > a {
+							font-size: 12px;
+	    }
+    }
+
+@media only screen and (min-width: 1060px) and (max-width: 1077px) {
+    
+    .navbar-inverse{
+          width:920px;
+          height: 55px;
+          margin-left: 0px;  
+        }
+     .navbar-header > h3{
+            font-size: 12px;
+        }   
+        
+        .navbar-nav > li {
+							padding: 3px;
+						  }
+			 .navbar-inverse .navbar-nav > li > a {
+							font-size: 12px;
+	    }
+}

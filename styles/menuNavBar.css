@@ -1,0 +1,62 @@
+/*----------------------------------------------------
+ 5.	Menu Sommaine Visiteurs Medical Style
+------------------------------------------------------*/
+			.navbar-inverse {
+   				background-color: #f5f6f7;
+    			border-color: #eee;
+                width: 1050px;
+                height: 68px;
+                border-radius: 8px;
+                margin-left: 30px;
+                margin-top: 10px;
+                
+				}
+					
+			.single-page-nav { 
+                text-align: center; 
+                margin-left: 71px;
+            }
+			.navbar-nav>li {
+				display: inline-block;
+				padding: 10px;
+			}		
+			.navbar-inverse .navbar-nav>li>a {
+				background: #f5f6f7 none repeat scroll 0 0;
+				border-left: 1px solid #808080;
+				color: #95a0a9 ;
+				font-size: 14px;
+				padding: 15px 25px;
+				text-decoration: none;
+				text-transform: capitalize;
+				-webkit-transition: all 0.3s ease;
+				transition: all 0.3s ease;
+				border-radius: 8px;
+                border-left-color: #ddd;
+			}
+						
+				.navbar-inverse .navbar-nav > li > a.current,
+				.navbar-inverse .navbar-nav > li > a:hover {
+					background: #d2d7da;
+				}
+				.navbar .navbar-nav {
+					display: inline-block;
+					float: none;
+                    margin-left: -132px;
+				}
+						
+				.navbar .navbar-collapse {
+					text-align: center;
+				}
+				.navbar{margin-bottom:0px }
+	
+
+
+.container>.navbar-header{
+    width: 250px;
+}
+
+.navbar-header > h3{
+		color: #95a0a9;
+		font-size: 15px;
+		padding: 5px 25px;
+}

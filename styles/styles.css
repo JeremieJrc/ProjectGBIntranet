@@ -1,0 +1,221 @@
+/* Styles des divisions principales de la page */
+
+html{
+  height:100%;
+}
+body{
+  
+	background-image: url("../images/bkg8.jpg");
+	background-repeat: no-repeat;
+    background-position:50% 0%;
+    
+    padding : 0.6em;
+    font-family:"Trebuchet MS",Verdana,Geneva,Arial,Helvetica,sans-serif;
+    font-size:0.8em;
+    width: 100%;
+    height:100%;
+    background-size: 90%;
+}
+
+#page{
+
+  padding : 0.1em;
+}
+#entete{
+     font-size: 2em;
+    
+     
+    opacity: 1;
+    position: relative;
+    color: #fff;
+    font-weight: 400;
+      text-align: center;
+      margin-right: 10px;
+      padding-bottom: 10px;
+      display: inline-block;
+      border-bottom: 3px solid#f5f7f8;
+      letter-spacing: 10px;
+      margin-left: 235px;
+    
+}
+#pied{
+  clear : both;
+	border : solid 0.2em #980101;
+	margin-left : 18%;
+	margin-top : 1em;
+	padding:0.4em;
+	padding: 0.2em;
+	border-collapse: separate;
+}
+
+
+#contenu{
+	border: none;
+	padding: 1.3em;
+	background-color: white;
+	border-left :  groove 0.8em #980101;
+    margin-top : 1.2em;
+	margin-left: 18%;
+/* permet de fixer une hauteur mini sur les navigateurs modernes */
+  min-height:27em;
+/* pour obtenir le même effet sur IE, sachant que si le contenu dépasse, il
+"poussera" la hauteur en ne respectant pas la norme. On se joue de ses lacunes
+*/
+  height:27em;
+}
+
+#entete #logoGSB {
+  float : left;
+  width : 238px;
+  height : 152px;
+}
+
+
+/*  Le texte des messages d'erreur est de couleur rose sur fond ocre et de 
+taille de caractères légèrement supérieure à la normale */
+.erreur{ 
+    background-color: #dbdbdc;
+    color: rgb(240, 173, 78);
+    font-size: 1.1em;
+    width: 16%;
+    margin-left: 206px;
+    height: 44px;
+    border-radius: 17px;
+}
+
+.errorfrais{ 
+    background-color: #f5f6f7;
+    /*color: rgb(240, 173, 78);*/
+    /*font-size: 1.1em;*/
+    width: 26%;
+    margin-left: 206px;
+    height: 108px;
+    border-radius: 17px;
+    margin-top: -240px;
+    padding-top: 1px;
+}
+
+.errorfrais > h2 {
+    color: #777777;
+}
+
+
+/* Style pour les lignes d'en-tête des tableaux */
+#contenu th {  
+   background-color:#77AADD;
+   height:21px;
+   text-align:left;
+   vertical-align:top;
+   font-weight:bold;
+   border-bottom:0.1em solid #777777;
+   font-size:1.1em;
+} 
+#contenu td {
+   border :1px solid #777777;
+}
+table.listeLegere {
+    margin-bottom : 0.5em;
+}
+/* Tableaux quadrillés utilisés pour l'affichage de listes avec contenu léger*/ 
+table.listeLegere th, table.listeLegere td {
+  border: dotted rgba(0,0,0,.075) 0.1em;
+  padding:0.5em;
+  vertical-align : top;
+  text-align : left;
+}
+table.listeLegere caption {
+  font-size : 1.1em;
+  text-align : left;
+   margin-bottom :10px;
+   margin-top:50px; 
+}
+table.listeLegere td {
+  vertical-align:top;
+  font-weight:normal;
+  
+}
+table.listeLegere th.eltForfait{
+  color:black;
+}
+table.listeLegere th.date, table.listeLegere th.montant, table.listeLegere th.action, table.listeLegere th.libelle{
+  width:15%;
+  background-color: #4f96b9;
+}
+
+
+
+.elementForfait
+{
+    width:15%;
+  color: #ddd;
+  background-color: #4f96b9;
+}
+
+table.listeLegere th.libelle{
+  width:70%;
+  color: #ddd;
+}
+
+
+#idEtatFrais{
+    width: 50%;
+    color:  rgb(252, 252, 252);
+    font-size: 30px;
+    border-bottom: 3px solid#f5f7f8;
+}
+
+/*Style que nous allons associer a toute les  page des container*/
+
+#v_cloture
+{
+    background-color: rgba(245, 246, 247, 0.28);
+    width: 1000px;
+    height : 470px;
+    margin-top: 15px;
+    /*margin-left: 62px;*/
+    border-radius: 11px;
+}
+
+#v_cloture > h2{
+    font-size: 35px;
+    border-bottom: 3px solid#f5f7f8;    
+}
+
+#v_listefrais{
+    background-color: rgba(245, 246, 247, 0.28);
+    width: 1000px;
+    margin-top: 15px;
+    /*margin-left: 62px;*/
+    border-radius: 11px;
+}
+
+#etat_frais{
+    background-color: rgba(245, 246, 247, 0.28);
+    width: 900px;
+    margin-top: -358px;
+    margin-left: 180px;
+    border-radius: 11px;
+}
+#v_listeMois{
+    background-color: rgba(245, 246, 247, 0.28);
+    width: 376px;
+    height: 325px;
+    margin-top: 15px;
+    margin-right: 180px;
+    border-radius: 11px;
+}
+
+#v_logDateVisiteur{
+    background-color: rgba(245, 246, 247, 0.28);
+    width: 340px;
+    height: 370px;
+    margin-top: 15px;
+    margin-right: 285px;
+    border-radius: 11px;
+}
+
+#idEtatlib
+{
+    margin-left: 480px;
+    margin-top: -58px;
+}
